@@ -46,6 +46,10 @@ Agentic coding interview platform. Provisions an intentionally broken multi-file
 LaTeX editor with live PDF compilation and an integrated Claude assistant. The assistant edits the Tex source directly, repairs compilation errors, refactors document structure, and generates inline citations from a connected reference database.  
 *Next.js, Claude API*
 
+**[GooseGuard](https://github.com/shriyaabalaji/hackhackgoose)** · 🏆 Hackathon winner  
+AI security patrol platform where attacker and guardian agents run real exploit/mitigation loops against a codebase in real time, visualized as a live goose standoff. Streams round-by-round probe/defense exchanges over WebSocket, scores live security health, and surfaces prioritized fixes, then ships them straight to a PR with one click: the sandbox patches and verifies the changes so you never have to touch the errors yourself.  
+*React, FastAPI, WebSocket, Claude/Gemini/OpenAI*
+
 ---
 
 ### Earlier
