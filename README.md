@@ -14,6 +14,10 @@ Heads-up no-limit Texas Hold'em solver implemented with Deep Counterfactual Regr
 Analysis of pricing efficiency across 1M+ settled NBA prediction market contracts on Kalshi. Measures favorite-longshot bias and time-decay drift in contract prices over the lifetime of each market. Includes backtests of trading strategies constructed from the observed inefficiencies.  
 *Python, pandas, NumPy*
 
+**[TransformerAddition](https://github.com/MohammadAlMasalmeh/TransformerAddition)**  
+A GPT-style transformer built and trained from scratch (custom tokenizer, dataset, causal self-attention, and training loop, with no pretrained weights) that learns to perform 3-digit addition purely from examples. Trains autoregressively on 50k generated problems with a causal mask, then generates answers token by token at inference time, mirroring how large language models produce text one token at a time.  
+*Python, PyTorch, custom tokenizer/dataset/transformer*
+
 ---
 
 ### Systems
