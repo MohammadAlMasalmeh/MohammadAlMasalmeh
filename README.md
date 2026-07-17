@@ -1,6 +1,6 @@
 ## Mohammad Al-Masalmeh
 
-CS @ UT Austin
+CS @ UT Austin · [LinkedIn](https://linkedin.com/in/mohammadalmasalmeh)
 
 ---
 
@@ -23,7 +23,7 @@ A GPT-style transformer built and trained from scratch (custom tokenizer, datase
 ### Systems
 
 **[Word_Counter](https://github.com/MohammadAlMasalmeh/Word_Counter)**  
-Multithreaded C++ word frequency counter for the full English Wikipedia XML dump. Producer threads chunk the input file and push raw text blocks onto a shared queue. Consumer threads tokenize each chunk using `string_view` for zero-copy reads, accumulate per-thread frequency maps, and merge them under a mutex at shutdown.  
+High-performance word frequency analyzer for the 112GB English Wikipedia dump. Batch-local frequency maps merged into a 256-shard concurrent counter with per-shard mutex isolation. Tokenization runs lock-free using transient maps, reducing lock acquisitions by ~100:1 compared to synchronizing on every token. Processes the full dataset in under 2 minutes.  
 *C++17, std::thread, std::mutex*
 
 ---
