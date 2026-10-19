@@ -22,13 +22,13 @@ A GPT-style transformer built and trained from scratch (custom tokenizer, datase
 
 ### Systems
 
-**[rust_vm](https://github.com/MohammadAlMasalmeh/rust_vm)**  
-Software virtual-memory simulator for studying how an OS virtualizes memory without building hardware. Currently being worked on.  
-*Rust*
-
 **[Word_Counter](https://github.com/MohammadAlMasalmeh/Word_Counter)**  
 High-performance word frequency analyzer for the 112GB English Wikipedia dump. Batch-local frequency maps merged into a 256-shard concurrent counter with per-shard mutex isolation. Tokenization runs lock-free using transient maps, reducing lock acquisitions by ~100:1 compared to synchronizing on every token. Processes the full dataset in under 2 minutes.  
 *C++17, std::thread, std::mutex*
+
+**[rust_vm](https://github.com/MohammadAlMasalmeh/rust_vm)**  
+Software virtual-memory simulator for studying how an OS virtualizes memory without building hardware. Currently being worked on.  
+*Rust*
 
 ---
 
